@@ -62,6 +62,7 @@ public class CameraActivity extends Activity {
         Log.d(TAG, "targetPath: " + targetPath);
 
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        takePictureIntent.setPackage("com.gps.survey.cam");
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
 
             File photoFile = null;
