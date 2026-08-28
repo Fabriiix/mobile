@@ -37,7 +37,6 @@
     <queries>
         <package android:name="com.gps.survey.cam" />
     </queries>
-    
     <application 
         android:name="org.qtproject.qt.android.bindings.QtApplication"
         android:hardwareAccelerated="true"
